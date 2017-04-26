@@ -17,20 +17,28 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     //1 创建窗口
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //2 设置窗口的跟控制器
 //    UIViewController *rootVc = [SYRootVCTool chooseRootVC];
 //    self.window.rootViewController = rootVc;
 //    //3 显示窗口
 
-    [self.window makeKeyAndVisible];
+//    [self.window makeKeyAndVisible];
     
-    
+    [self listenNetwork];
     // Override point for customization after application launch.
     return YES;
 }
 
+#pragma mark -- 网络监听
+-(void)listenNetwork{
+    AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
+    [manager.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        self.reach = status;
+    }];
+    [manager.reachabilityManager startMonitoring];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

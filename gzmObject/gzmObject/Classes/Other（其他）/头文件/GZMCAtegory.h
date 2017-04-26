@@ -10,5 +10,13 @@
 #define GZMCAtegory_h
 #import "UIColor+GZM.h"
 #import "NSString+GZM.h"
+//请求加载动画枚举
+typedef NS_OPTIONS(NSInteger, loadIngtype) {
+    mainLoading          =0,
+    cilyLoag               = 1 << 0,
+    lineLoag                = 1 << 1,
+    //    imageAndTitle           = 1 << 2,
+    //    onlyTitle               = 1 << 3,
+};
 
 #endif /* GZMCAtegory_h */

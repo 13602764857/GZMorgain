@@ -9,6 +9,7 @@
 #ifndef ThreePart_h
 #define ThreePart_h
 #import <MJRefresh.h>
+#import <AFNetworking.h>
 
 
 #endif /* ThreePart_h */

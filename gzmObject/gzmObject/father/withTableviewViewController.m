@@ -109,9 +109,9 @@
         _GZMTableView.delegate = self;
 //        _GZMTableView.dataSource = self;
         
-//        _GZMTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
-//        [_GZMTableView.mj_header beginRefreshing];
-//        _GZMTableView.backgroundColor = MianColor;
+        _GZMTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
+        [_GZMTableView.mj_header beginRefreshing];
+        _GZMTableView.backgroundColor = MianColor;
         _GZMTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
        
     }
@@ -166,8 +166,9 @@
 //        _GZMCollEctionView.dataSource = self;
         _GZMCollEctionView.backgroundColor = [UIColor whiteColor];
         _GZMCollEctionView.delegate = self;
-//        _GZMCollEctionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
-//        [_GZMCollEctionView.mj_header beginRefreshing];
+        
+        _GZMCollEctionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
+        [_GZMCollEctionView.mj_header beginRefreshing];
     }
     return _GZMCollEctionView;
 }
