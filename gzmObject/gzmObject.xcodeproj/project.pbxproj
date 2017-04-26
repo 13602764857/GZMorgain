@@ -15,6 +15,20 @@
 		158797911EAFEF6100DA40CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1587978F1EAFEF6100DA40CF /* LaunchScreen.storyboard */; };
 		1587979C1EAFEF6100DA40CF /* gzmObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1587979B1EAFEF6100DA40CF /* gzmObjectTests.m */; };
 		158797A71EAFEF6100DA40CF /* gzmObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797A61EAFEF6100DA40CF /* gzmObjectUITests.m */; };
+		158797C61EB027C800DA40CF /* FatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797C31EB027C800DA40CF /* FatherViewController.m */; };
+		158797C71EB027C800DA40CF /* withTableviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797C51EB027C800DA40CF /* withTableviewViewController.m */; };
+		158797E01EB02C8400DA40CF /* NSArray+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797CB1EB02C8400DA40CF /* NSArray+GZM.m */; };
+		158797E11EB02C8400DA40CF /* NSDictionary+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797CD1EB02C8400DA40CF /* NSDictionary+GZM.m */; };
+		158797E21EB02C8400DA40CF /* NSString+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797CF1EB02C8400DA40CF /* NSString+GZM.m */; };
+		158797E31EB02C8400DA40CF /* UIActivityIndicatorView+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797D11EB02C8400DA40CF /* UIActivityIndicatorView+GZM.m */; };
+		158797E41EB02C8400DA40CF /* UIButton+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797D31EB02C8400DA40CF /* UIButton+GZM.m */; };
+		158797E51EB02C8400DA40CF /* UIColor+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797D51EB02C8400DA40CF /* UIColor+GZM.m */; };
+		158797E61EB02C8400DA40CF /* UIImage+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797D71EB02C8400DA40CF /* UIImage+GZM.m */; };
+		158797E71EB02C8400DA40CF /* UIImageView+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797D91EB02C8400DA40CF /* UIImageView+GZM.m */; };
+		158797E81EB02C8400DA40CF /* UILabel+GZMlable.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797DB1EB02C8400DA40CF /* UILabel+GZMlable.m */; };
+		158797E91EB02C8400DA40CF /* UITextView+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797DD1EB02C8400DA40CF /* UITextView+GZM.m */; };
+		158797EA1EB02C8400DA40CF /* UIView+GZM.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797DF1EB02C8400DA40CF /* UIView+GZM.m */; };
+		158797ED1EB02DE300DA40CF /* UIView+SYFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797EC1EB02DE300DA40CF /* UIView+SYFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +65,35 @@
 		158797A21EAFEF6100DA40CF /* gzmObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gzmObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		158797A61EAFEF6100DA40CF /* gzmObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gzmObjectUITests.m; sourceTree = "<group>"; };
 		158797A81EAFEF6100DA40CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		158797C21EB027C800DA40CF /* FatherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatherViewController.h; sourceTree = "<group>"; };
+		158797C31EB027C800DA40CF /* FatherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatherViewController.m; sourceTree = "<group>"; };
+		158797C41EB027C800DA40CF /* withTableviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = withTableviewViewController.h; sourceTree = "<group>"; };
+		158797C51EB027C800DA40CF /* withTableviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = withTableviewViewController.m; sourceTree = "<group>"; };
+		158797C81EB028F500DA40CF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		158797CA1EB02C8400DA40CF /* NSArray+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GZM.h"; sourceTree = "<group>"; };
+		158797CB1EB02C8400DA40CF /* NSArray+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GZM.m"; sourceTree = "<group>"; };
+		158797CC1EB02C8400DA40CF /* NSDictionary+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GZM.h"; sourceTree = "<group>"; };
+		158797CD1EB02C8400DA40CF /* NSDictionary+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GZM.m"; sourceTree = "<group>"; };
+		158797CE1EB02C8400DA40CF /* NSString+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GZM.h"; sourceTree = "<group>"; };
+		158797CF1EB02C8400DA40CF /* NSString+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GZM.m"; sourceTree = "<group>"; };
+		158797D01EB02C8400DA40CF /* UIActivityIndicatorView+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+GZM.h"; sourceTree = "<group>"; };
+		158797D11EB02C8400DA40CF /* UIActivityIndicatorView+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+GZM.m"; sourceTree = "<group>"; };
+		158797D21EB02C8400DA40CF /* UIButton+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GZM.h"; sourceTree = "<group>"; };
+		158797D31EB02C8400DA40CF /* UIButton+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GZM.m"; sourceTree = "<group>"; };
+		158797D41EB02C8400DA40CF /* UIColor+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+GZM.h"; sourceTree = "<group>"; };
+		158797D51EB02C8400DA40CF /* UIColor+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+GZM.m"; sourceTree = "<group>"; };
+		158797D61EB02C8400DA40CF /* UIImage+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GZM.h"; sourceTree = "<group>"; };
+		158797D71EB02C8400DA40CF /* UIImage+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GZM.m"; sourceTree = "<group>"; };
+		158797D81EB02C8400DA40CF /* UIImageView+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GZM.h"; sourceTree = "<group>"; };
+		158797D91EB02C8400DA40CF /* UIImageView+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GZM.m"; sourceTree = "<group>"; };
+		158797DA1EB02C8400DA40CF /* UILabel+GZMlable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GZMlable.h"; sourceTree = "<group>"; };
+		158797DB1EB02C8400DA40CF /* UILabel+GZMlable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GZMlable.m"; sourceTree = "<group>"; };
+		158797DC1EB02C8400DA40CF /* UITextView+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+GZM.h"; sourceTree = "<group>"; };
+		158797DD1EB02C8400DA40CF /* UITextView+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+GZM.m"; sourceTree = "<group>"; };
+		158797DE1EB02C8400DA40CF /* UIView+GZM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GZM.h"; sourceTree = "<group>"; };
+		158797DF1EB02C8400DA40CF /* UIView+GZM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GZM.m"; sourceTree = "<group>"; };
+		158797EB1EB02DE300DA40CF /* UIView+SYFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SYFrame.h"; sourceTree = "<group>"; };
+		158797EC1EB02DE300DA40CF /* UIView+SYFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SYFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +144,11 @@
 		158797801EAFEF6100DA40CF /* gzmObject */ = {
 			isa = PBXGroup;
 			children = (
+				158797C81EB028F500DA40CF /* PrefixHeader.pch */,
+				158797C11EB027C800DA40CF /* father */,
+				158797BA1EB023C600DA40CF /* Other（其他） */,
+				158797BB1EB023C600DA40CF /* Tool（工具） */,
+				158797BC1EB023C600DA40CF /* Main */,
 				158797841EAFEF6100DA40CF /* AppDelegate.h */,
 				158797851EAFEF6100DA40CF /* AppDelegate.m */,
 				158797871EAFEF6100DA40CF /* ViewController.h */,
@@ -138,6 +186,105 @@
 				158797A81EAFEF6100DA40CF /* Info.plist */,
 			);
 			path = gzmObjectUITests;
+			sourceTree = "<group>";
+		};
+		158797BA1EB023C600DA40CF /* Other（其他） */ = {
+			isa = PBXGroup;
+			children = (
+				158797C91EB02C8400DA40CF /* GZMCategory */,
+			);
+			name = "Other（其他）";
+			path = "Classes/Other（其他）";
+			sourceTree = "<group>";
+		};
+		158797BB1EB023C600DA40CF /* Tool（工具） */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Tool（工具）";
+			path = "Classes/Tool（工具）";
+			sourceTree = "<group>";
+		};
+		158797BC1EB023C600DA40CF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				158797BD1EB0278900DA40CF /* GZMactive */,
+			);
+			name = Main;
+			path = Classes/Main;
+			sourceTree = "<group>";
+		};
+		158797BD1EB0278900DA40CF /* GZMactive */ = {
+			isa = PBXGroup;
+			children = (
+				158797BE1EB0278900DA40CF /* controller */,
+				158797BF1EB0278900DA40CF /* Model */,
+				158797C01EB0278900DA40CF /* View */,
+			);
+			path = GZMactive;
+			sourceTree = "<group>";
+		};
+		158797BE1EB0278900DA40CF /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		158797BF1EB0278900DA40CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		158797C01EB0278900DA40CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		158797C11EB027C800DA40CF /* father */ = {
+			isa = PBXGroup;
+			children = (
+				158797C21EB027C800DA40CF /* FatherViewController.h */,
+				158797C31EB027C800DA40CF /* FatherViewController.m */,
+				158797C41EB027C800DA40CF /* withTableviewViewController.h */,
+				158797C51EB027C800DA40CF /* withTableviewViewController.m */,
+			);
+			path = father;
+			sourceTree = "<group>";
+		};
+		158797C91EB02C8400DA40CF /* GZMCategory */ = {
+			isa = PBXGroup;
+			children = (
+				158797CA1EB02C8400DA40CF /* NSArray+GZM.h */,
+				158797CB1EB02C8400DA40CF /* NSArray+GZM.m */,
+				158797CC1EB02C8400DA40CF /* NSDictionary+GZM.h */,
+				158797CD1EB02C8400DA40CF /* NSDictionary+GZM.m */,
+				158797CE1EB02C8400DA40CF /* NSString+GZM.h */,
+				158797CF1EB02C8400DA40CF /* NSString+GZM.m */,
+				158797D01EB02C8400DA40CF /* UIActivityIndicatorView+GZM.h */,
+				158797D11EB02C8400DA40CF /* UIActivityIndicatorView+GZM.m */,
+				158797D21EB02C8400DA40CF /* UIButton+GZM.h */,
+				158797D31EB02C8400DA40CF /* UIButton+GZM.m */,
+				158797D41EB02C8400DA40CF /* UIColor+GZM.h */,
+				158797D51EB02C8400DA40CF /* UIColor+GZM.m */,
+				158797D61EB02C8400DA40CF /* UIImage+GZM.h */,
+				158797D71EB02C8400DA40CF /* UIImage+GZM.m */,
+				158797D81EB02C8400DA40CF /* UIImageView+GZM.h */,
+				158797D91EB02C8400DA40CF /* UIImageView+GZM.m */,
+				158797DA1EB02C8400DA40CF /* UILabel+GZMlable.h */,
+				158797DB1EB02C8400DA40CF /* UILabel+GZMlable.m */,
+				158797DC1EB02C8400DA40CF /* UITextView+GZM.h */,
+				158797DD1EB02C8400DA40CF /* UITextView+GZM.m */,
+				158797DE1EB02C8400DA40CF /* UIView+GZM.h */,
+				158797DF1EB02C8400DA40CF /* UIView+GZM.m */,
+				158797EB1EB02DE300DA40CF /* UIView+SYFrame.h */,
+				158797EC1EB02DE300DA40CF /* UIView+SYFrame.m */,
+			);
+			path = GZMCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +420,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158797E41EB02C8400DA40CF /* UIButton+GZM.m in Sources */,
 				158797891EAFEF6100DA40CF /* ViewController.m in Sources */,
+				158797C71EB027C800DA40CF /* withTableviewViewController.m in Sources */,
+				158797E21EB02C8400DA40CF /* NSString+GZM.m in Sources */,
+				158797E81EB02C8400DA40CF /* UILabel+GZMlable.m in Sources */,
+				158797E51EB02C8400DA40CF /* UIColor+GZM.m in Sources */,
+				158797ED1EB02DE300DA40CF /* UIView+SYFrame.m in Sources */,
 				158797861EAFEF6100DA40CF /* AppDelegate.m in Sources */,
+				158797E61EB02C8400DA40CF /* UIImage+GZM.m in Sources */,
+				158797E01EB02C8400DA40CF /* NSArray+GZM.m in Sources */,
+				158797EA1EB02C8400DA40CF /* UIView+GZM.m in Sources */,
+				158797E31EB02C8400DA40CF /* UIActivityIndicatorView+GZM.m in Sources */,
+				158797E71EB02C8400DA40CF /* UIImageView+GZM.m in Sources */,
+				158797E91EB02C8400DA40CF /* UITextView+GZM.m in Sources */,
+				158797C61EB027C800DA40CF /* FatherViewController.m in Sources */,
 				158797831EAFEF6100DA40CF /* main.m in Sources */,
+				158797E11EB02C8400DA40CF /* NSDictionary+GZM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

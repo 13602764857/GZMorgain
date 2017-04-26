@@ -16,6 +16,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    //1 创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    //2 设置窗口的跟控制器
+//    UIViewController *rootVc = [SYRootVCTool chooseRootVC];
+//    self.window.rootViewController = rootVc;
+//    //3 显示窗口
+    
+    [self.window makeKeyAndVisible];
+    
+    
     // Override point for customization after application launch.
     return YES;
 }
