@@ -49,7 +49,7 @@
                 titleLable1.center = CGPointMake(_empyView.width/2 , _empyView.height/2);
                 titleLable1.bounds = CGRectMake(0, 0, 200, 20);
                 titleLable1.textAlignment = NSTextAlignmentCenter;
-                titleLable1.textColor = [UIColor mainLightColor];
+                titleLable1.textColor = [UIColor GZMLightColor];
                 titleLable1.text = @"主人暂无数据哟~~";
                 [_empyView addSubview:titleLable1];
                 
@@ -68,7 +68,7 @@
                 titleLable1.bounds = CGRectMake(0, 0, 200, 20);
                 titleLable1.y = CGRectGetMaxY(imageView.frame) + 10;
                 titleLable1.textAlignment = NSTextAlignmentCenter;
-                titleLable1.textColor = [UIColor mainLightColor];
+                titleLable1.textColor = [UIColor GZMLightColor];
                 titleLable1.text = @"主人暂无数据哟~~";
                 [_empyView addSubview:titleLable1];
             }
@@ -108,8 +108,9 @@
         _GZMTableView = [[UITableView alloc] initWithFrame:self.view.frame style:UITableViewStylePlain];
         _GZMTableView.delegate = self;
 //        _GZMTableView.dataSource = self;
-        _GZMTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
-        [_GZMTableView.mj_header beginRefreshing];
+        
+//        _GZMTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
+//        [_GZMTableView.mj_header beginRefreshing];
 //        _GZMTableView.backgroundColor = MianColor;
         _GZMTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
        
@@ -165,8 +166,8 @@
 //        _GZMCollEctionView.dataSource = self;
         _GZMCollEctionView.backgroundColor = [UIColor whiteColor];
         _GZMCollEctionView.delegate = self;
-        _GZMCollEctionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
-        [_GZMCollEctionView.mj_header beginRefreshing];
+//        _GZMCollEctionView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
+//        [_GZMCollEctionView.mj_header beginRefreshing];
     }
     return _GZMCollEctionView;
 }
