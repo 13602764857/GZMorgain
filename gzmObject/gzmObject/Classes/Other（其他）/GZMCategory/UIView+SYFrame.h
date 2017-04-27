@@ -26,7 +26,10 @@
 
 @property CGFloat centerY;
 
+/******* 给控件画圆角  *******/
+-(void)GZMcircleView;
 - (BOOL)getIslandscace;
 /******* 适配屏幕尺寸系数  *******/
 -(void)sizeToFitFrame;
-@end
+/******* 让其控件有圆角且圆角有颜色  *******/
+-(void)GZMchangeStyleWith:(CGFloat)size withborad:(CGFloat)borcdSize withBoardColor:(UIColor *)color;@end

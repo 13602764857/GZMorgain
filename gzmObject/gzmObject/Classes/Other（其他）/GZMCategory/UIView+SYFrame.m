@@ -104,6 +104,17 @@
     }
     return islandscace;
 }
+/******* 给控件画圆角  *******/
+-(void)GZMcircleView{
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, [UIScreen mainScreen].scale);
+    //使用贝塞尔曲线画出一个圆形图
+    [[UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:self.frame.size.width] addClip];
+    [self drawRect:self.bounds];
+    
+    //    imageView.image = UIGraphicsGetImageFromCurrentImageContext();
+    //结束画图
+    UIGraphicsEndImageContext();
+}
 
 /******* 适配系数  *******/
 -(void)sizeToFitFrame{
@@ -112,6 +123,14 @@
     self.x = self.x *FITNUM;
     self.y = self.y * FITNUM;
 }
+/******* 让其控件有圆角且圆角有颜色  *******/
+-(void)GZMchangeStyleWith:(CGFloat)size withborad:(CGFloat)borcdSize withBoardColor:(UIColor *)color{
+    self.layer.cornerRadius = size;
+    self.layer.masksToBounds = YES;
+    self.layer.borderWidth = borcdSize;
+    self.layer.borderColor = (__bridge CGColorRef _Nullable)(color);
+}
+
 
 
 @end
