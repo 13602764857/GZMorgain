@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "GZMZongViewController.h"
+#import "GZMRootViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -20,8 +20,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     //2 设置窗口的跟控制器
-//    UIViewController *rootVc = [SYRootVCTool chooseRootVC];
-    GZMZongViewController * rootVc = [[GZMZongViewController alloc] init];
+    UIViewController * rootVc = [GZMRootViewController GZMCreatRootVc];
     self.window.rootViewController = rootVc;
 //    //3 显示窗口
 

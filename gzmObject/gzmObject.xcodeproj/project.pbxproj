@@ -18,9 +18,16 @@
 		1505E14C1EB15B6100C61DFC /* RequestTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E14B1EB15B6100C61DFC /* RequestTool.m */; };
 		1505E14F1EB15C4900C61DFC /* LoadIngView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E14E1EB15C4900C61DFC /* LoadIngView.m */; };
 		1505E1541EB1657400C61DFC /* GZMZongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E1531EB1657400C61DFC /* GZMZongViewController.m */; };
+		1505E15A1EB27B5500C61DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E1571EB27B5500C61DFC /* AppDelegate.m */; };
+		1505E15B1EB27B5500C61DFC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E1591EB27B5500C61DFC /* ViewController.m */; };
+		1505E15E1EB27BA100C61DFC /* GZMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E15D1EB27BA100C61DFC /* GZMRootViewController.m */; };
+		1505E1621EB27EF900C61DFC /* GZMLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E1601EB27EF900C61DFC /* GZMLoginViewController.m */; };
+		1505E1631EB27EF900C61DFC /* GZMLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1505E1611EB27EF900C61DFC /* GZMLoginViewController.xib */; };
+		1505E1671EB2B10700C61DFC /* onrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E1651EB2B10700C61DFC /* onrViewController.m */; };
+		1505E1681EB2B10700C61DFC /* onrViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1505E1661EB2B10700C61DFC /* onrViewController.xib */; };
+		1505E16E1EB2C0E900C61DFC /* GZMTabbatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E16D1EB2C0E900C61DFC /* GZMTabbatViewController.m */; };
+		1505E1781EB2C6AD00C61DFC /* GZMMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1505E1771EB2C6AD00C61DFC /* GZMMyViewController.m */; };
 		158797831EAFEF6100DA40CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797821EAFEF6100DA40CF /* main.m */; };
-		158797861EAFEF6100DA40CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797851EAFEF6100DA40CF /* AppDelegate.m */; };
-		158797891EAFEF6100DA40CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158797881EAFEF6100DA40CF /* ViewController.m */; };
 		1587978C1EAFEF6100DA40CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1587978A1EAFEF6100DA40CF /* Main.storyboard */; };
 		1587978E1EAFEF6100DA40CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1587978D1EAFEF6100DA40CF /* Assets.xcassets */; };
 		158797911EAFEF6100DA40CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1587978F1EAFEF6100DA40CF /* LaunchScreen.storyboard */; };
@@ -89,12 +96,24 @@
 		1505E1511EB15D9400C61DFC /* GZMSecret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZMSecret.h; sourceTree = "<group>"; };
 		1505E1521EB1657400C61DFC /* GZMZongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZMZongViewController.h; sourceTree = "<group>"; };
 		1505E1531EB1657400C61DFC /* GZMZongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZMZongViewController.m; sourceTree = "<group>"; };
+		1505E1561EB27B5500C61DFC /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1505E1571EB27B5500C61DFC /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1505E1581EB27B5500C61DFC /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1505E1591EB27B5500C61DFC /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1505E15C1EB27BA100C61DFC /* GZMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZMRootViewController.h; sourceTree = "<group>"; };
+		1505E15D1EB27BA100C61DFC /* GZMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZMRootViewController.m; sourceTree = "<group>"; };
+		1505E15F1EB27EF900C61DFC /* GZMLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZMLoginViewController.h; sourceTree = "<group>"; };
+		1505E1601EB27EF900C61DFC /* GZMLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZMLoginViewController.m; sourceTree = "<group>"; };
+		1505E1611EB27EF900C61DFC /* GZMLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GZMLoginViewController.xib; sourceTree = "<group>"; };
+		1505E1641EB2B10700C61DFC /* onrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onrViewController.h; sourceTree = "<group>"; };
+		1505E1651EB2B10700C61DFC /* onrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = onrViewController.m; sourceTree = "<group>"; };
+		1505E1661EB2B10700C61DFC /* onrViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = onrViewController.xib; sourceTree = "<group>"; };
+		1505E16C1EB2C0E900C61DFC /* GZMTabbatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZMTabbatViewController.h; sourceTree = "<group>"; };
+		1505E16D1EB2C0E900C61DFC /* GZMTabbatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZMTabbatViewController.m; sourceTree = "<group>"; };
+		1505E1761EB2C6AD00C61DFC /* GZMMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZMMyViewController.h; sourceTree = "<group>"; };
+		1505E1771EB2C6AD00C61DFC /* GZMMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZMMyViewController.m; sourceTree = "<group>"; };
 		1587977E1EAFEF6100DA40CF /* gzmObject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gzmObject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		158797821EAFEF6100DA40CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		158797841EAFEF6100DA40CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		158797851EAFEF6100DA40CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		158797871EAFEF6100DA40CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		158797881EAFEF6100DA40CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1587978B1EAFEF6100DA40CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1587978D1EAFEF6100DA40CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		158797901EAFEF6100DA40CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -210,6 +229,60 @@
 			path = "request（请求）";
 			sourceTree = "<group>";
 		};
+		1505E1551EB27B5500C61DFC /* applicition */ = {
+			isa = PBXGroup;
+			children = (
+				1505E1561EB27B5500C61DFC /* AppDelegate.h */,
+				1505E1571EB27B5500C61DFC /* AppDelegate.m */,
+				1505E15C1EB27BA100C61DFC /* GZMRootViewController.h */,
+				1505E15D1EB27BA100C61DFC /* GZMRootViewController.m */,
+				1505E16C1EB2C0E900C61DFC /* GZMTabbatViewController.h */,
+				1505E16D1EB2C0E900C61DFC /* GZMTabbatViewController.m */,
+				1505E15F1EB27EF900C61DFC /* GZMLoginViewController.h */,
+				1505E1601EB27EF900C61DFC /* GZMLoginViewController.m */,
+				1505E1611EB27EF900C61DFC /* GZMLoginViewController.xib */,
+				1505E1641EB2B10700C61DFC /* onrViewController.h */,
+				1505E1651EB2B10700C61DFC /* onrViewController.m */,
+				1505E1661EB2B10700C61DFC /* onrViewController.xib */,
+				1505E1581EB27B5500C61DFC /* ViewController.h */,
+				1505E1591EB27B5500C61DFC /* ViewController.m */,
+			);
+			path = applicition;
+			sourceTree = "<group>";
+		};
+		1505E16F1EB2C63400C61DFC /* 我的 */ = {
+			isa = PBXGroup;
+			children = (
+				1505E1701EB2C66B00C61DFC /* controller */,
+				1505E1731EB2C66B00C61DFC /* Model */,
+				1505E1741EB2C66B00C61DFC /* View */,
+			);
+			path = "我的";
+			sourceTree = "<group>";
+		};
+		1505E1701EB2C66B00C61DFC /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1505E1761EB2C6AD00C61DFC /* GZMMyViewController.h */,
+				1505E1771EB2C6AD00C61DFC /* GZMMyViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		1505E1731EB2C66B00C61DFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1505E1741EB2C66B00C61DFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		158797751EAFEF6000DA40CF = {
 			isa = PBXGroup;
 			children = (
@@ -235,14 +308,11 @@
 		158797801EAFEF6100DA40CF /* gzmObject */ = {
 			isa = PBXGroup;
 			children = (
+				1505E1551EB27B5500C61DFC /* applicition */,
 				158797C11EB027C800DA40CF /* father */,
 				158797BC1EB023C600DA40CF /* Main */,
 				158797BA1EB023C600DA40CF /* Other（其他） */,
 				158797BB1EB023C600DA40CF /* Tool（工具） */,
-				158797841EAFEF6100DA40CF /* AppDelegate.h */,
-				158797851EAFEF6100DA40CF /* AppDelegate.m */,
-				158797871EAFEF6100DA40CF /* ViewController.h */,
-				158797881EAFEF6100DA40CF /* ViewController.m */,
 				1587978A1EAFEF6100DA40CF /* Main.storyboard */,
 				1587978D1EAFEF6100DA40CF /* Assets.xcassets */,
 				1587978F1EAFEF6100DA40CF /* LaunchScreen.storyboard */,
@@ -303,6 +373,7 @@
 			isa = PBXGroup;
 			children = (
 				158797BD1EB0278900DA40CF /* GZMactive */,
+				1505E16F1EB2C63400C61DFC /* 我的 */,
 			);
 			name = Main;
 			path = Classes/Main;
@@ -510,6 +581,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				158797911EAFEF6100DA40CF /* LaunchScreen.storyboard in Resources */,
+				1505E1631EB27EF900C61DFC /* GZMLoginViewController.xib in Resources */,
+				1505E1681EB2B10700C61DFC /* onrViewController.xib in Resources */,
 				1587978E1EAFEF6100DA40CF /* Assets.xcassets in Resources */,
 				1587978C1EAFEF6100DA40CF /* Main.storyboard in Resources */,
 			);
@@ -585,8 +658,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				158797E41EB02C8400DA40CF /* UIButton+GZM.m in Sources */,
-				158797891EAFEF6100DA40CF /* ViewController.m in Sources */,
 				158797C71EB027C800DA40CF /* withTableviewViewController.m in Sources */,
+				1505E15A1EB27B5500C61DFC /* AppDelegate.m in Sources */,
 				158797E21EB02C8400DA40CF /* NSString+GZM.m in Sources */,
 				158797E81EB02C8400DA40CF /* UILabel+GZMlable.m in Sources */,
 				1505E1541EB1657400C61DFC /* GZMZongViewController.m in Sources */,
@@ -594,11 +667,14 @@
 				158797E51EB02C8400DA40CF /* UIColor+GZM.m in Sources */,
 				158797ED1EB02DE300DA40CF /* UIView+SYFrame.m in Sources */,
 				1505E1451EB15A0300C61DFC /* warnIngView.m in Sources */,
-				158797861EAFEF6100DA40CF /* AppDelegate.m in Sources */,
 				158797E61EB02C8400DA40CF /* UIImage+GZM.m in Sources */,
+				1505E1671EB2B10700C61DFC /* onrViewController.m in Sources */,
 				158797E01EB02C8400DA40CF /* NSArray+GZM.m in Sources */,
 				158797EA1EB02C8400DA40CF /* UIView+GZM.m in Sources */,
 				1505E1421EB15A0300C61DFC /* downLoadView.m in Sources */,
+				1505E16E1EB2C0E900C61DFC /* GZMTabbatViewController.m in Sources */,
+				1505E1781EB2C6AD00C61DFC /* GZMMyViewController.m in Sources */,
+				1505E15B1EB27B5500C61DFC /* ViewController.m in Sources */,
 				158797E31EB02C8400DA40CF /* UIActivityIndicatorView+GZM.m in Sources */,
 				158797E71EB02C8400DA40CF /* UIImageView+GZM.m in Sources */,
 				1505E14F1EB15C4900C61DFC /* LoadIngView.m in Sources */,
@@ -609,9 +685,11 @@
 				158797E91EB02C8400DA40CF /* UITextView+GZM.m in Sources */,
 				158797C61EB027C800DA40CF /* FatherViewController.m in Sources */,
 				158797831EAFEF6100DA40CF /* main.m in Sources */,
+				1505E15E1EB27BA100C61DFC /* GZMRootViewController.m in Sources */,
 				158797E11EB02C8400DA40CF /* NSDictionary+GZM.m in Sources */,
 				1505E1471EB15A0300C61DFC /* XLWaveProgress.m in Sources */,
 				1505E1481EB15A0300C61DFC /* ZJModelTool.m in Sources */,
+				1505E1621EB27EF900C61DFC /* GZMLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

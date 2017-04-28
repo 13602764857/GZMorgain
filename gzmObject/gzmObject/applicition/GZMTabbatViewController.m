@@ -1,38 +1,28 @@
 //
-//  GZMZongViewController.m
+//  GZMTabbatViewController.m
 //  gzmObject
 //
-//  Created by gzm on 2017/4/26.
+//  Created by gzm on 2017/4/27.
 //  Copyright © 2017年 gzm. All rights reserved.
 //
 
+#import "GZMTabbatViewController.h"
 #import "GZMZongViewController.h"
-
-@interface GZMZongViewController ()
+#import "GZMMyViewController.h"
+@interface GZMTabbatViewController ()
 
 @end
 
-@implementation GZMZongViewController
-
+@implementation GZMTabbatViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self creatFather];
-    [self creatData];
-    [self creatUI];
+    GZMZongViewController * zongVc = [[GZMZongViewController alloc] init];
+    UINavigationController * NVc1 = [[UINavigationController alloc] initWithRootViewController:zongVc];
+    GZMMyViewController * vc1 = [[GZMMyViewController alloc] init];
+    UINavigationController * nvc2 = [[UINavigationController alloc] initWithRootViewController:vc1];
+    self.viewControllers = @[NVc1,nvc2];
     // Do any additional setup after loading the view.
-}
-
--(void)creatData{
-    
-}
-
--(void)creatFather{
-    
-}
-
--(void)creatUI{
-    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -1,38 +1,22 @@
 //
-//  GZMZongViewController.m
+//  onrViewController.m
 //  gzmObject
 //
-//  Created by gzm on 2017/4/26.
+//  Created by gzm on 2017/4/27.
 //  Copyright © 2017年 gzm. All rights reserved.
 //
 
-#import "GZMZongViewController.h"
+#import "onrViewController.h"
 
-@interface GZMZongViewController ()
+@interface onrViewController ()
 
 @end
 
-@implementation GZMZongViewController
-
+@implementation onrViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self creatFather];
-    [self creatData];
-    [self creatUI];
-    // Do any additional setup after loading the view.
-}
-
--(void)creatData{
-    
-}
-
--(void)creatFather{
-    
-}
-
--(void)creatUI{
-    
+    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {

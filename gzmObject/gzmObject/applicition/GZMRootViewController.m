@@ -1,40 +1,31 @@
 //
-//  GZMZongViewController.m
+//  GZMRootViewController.m
 //  gzmObject
 //
-//  Created by gzm on 2017/4/26.
+//  Created by gzm on 2017/4/27.
 //  Copyright © 2017年 gzm. All rights reserved.
 //
 
+#import "GZMRootViewController.h"
 #import "GZMZongViewController.h"
-
-@interface GZMZongViewController ()
+#import "GZMLoginViewController.h"
+@interface GZMRootViewController ()
 
 @end
 
-@implementation GZMZongViewController
-
+@implementation GZMRootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self creatFather];
-    [self creatData];
-    [self creatUI];
     // Do any additional setup after loading the view.
 }
-
--(void)creatData{
-    
+/********创建rootView(外部可以调用)*******/
++ (UIViewController *)GZMCreatRootVc{
+    UIViewController * RootVc;
+//    RootVc = [[GZMZongViewController alloc] init];
+    RootVc = [[GZMLoginViewController alloc] init];
+    return RootVc;
 }
-
--(void)creatFather{
-    
-}
-
--(void)creatUI{
-    
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
