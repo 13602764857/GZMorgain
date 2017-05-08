@@ -7,7 +7,7 @@
 //
 
 #import "GZMZongViewController.h"
-
+#import "GZMProjectViewController.h"
 @interface GZMZongViewController ()
 
 @end
@@ -26,15 +26,26 @@
 -(void)creatData{
     
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.tabBarController.tabBar.hidden = NO;
+}
 -(void)creatFather{
-    
+    /******* 头部隐藏  *******/
+    self.imageView1.hidden = YES;
 }
 
 -(void)creatUI{
-    
+    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 80, 80)];
+    button.backgroundColor = MianColor;
+    [button addTarget:self action:@selector(buttonclick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
-
+-(void)buttonclick{
+    self.tabBarController.tabBar.hidden = YES;
+    GZMProjectViewController * GZMProVc = [[GZMProjectViewController alloc] init];
+    [self.navigationController pushViewController:GZMProVc animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

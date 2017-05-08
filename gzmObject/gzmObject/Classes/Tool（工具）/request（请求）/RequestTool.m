@@ -17,58 +17,34 @@
     manager.requestSerializer.timeoutInterval = 30;
     return manager;
 }
-+(void)sendPostAFRequest:(NSString *)url parameters:(NSDictionary *)parameters successBlock:(requestBlock)successBlock failBlock:(requestBlock)failBlock delegate:(UIViewController *)delegate{
-    //    jiazaiView * jizai = [[jiazaiView alloc]initWithFrame:delegate.view.frame];
-    //    [delegate.view addSubview:jizai];
++(void)sendPostAFRequest:(NSString *)url parameters:(NSDictionary *)parameters successBlock:(requestBlock)successBlock failBlock:(requestBlock)failBlock delegate:(UIViewController *)delegate loadWith:(loadIngtype)tpye{
     LoadIngView * loading = [[LoadIngView alloc] initWithFrame:CGRectMake(0, 0, delegate.view.width, delegate.view.height)];
     
     if (delegate.view.height == Height) {
         loading.y = 64;
     }
-    [delegate.view addSubview:loading];
+    if (tpye == mainLoading) {
+        [delegate.view addSubview:loading];
+    }
+    
     AFHTTPSessionManager * manager = [self initManager];
     [manager POST:url parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
         
     } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
         [loading removeFromSuperview];
-        //        [jizai removeFromSuperview];
         NSLog(@"%@",responseObject);
         [self success:successBlock dicResponseObject:responseObject delegate:delegate];
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         [loading removeFromSuperview];
-        //        [jizai removeFromSuperview];
         [self fail:failBlock error:error delegate:delegate];
-        failBlock(error);
+        
     }];
     
 }
 
-+(void)sendGetAFRequest:(NSString *)url parameters:(NSDictionary *)parameters successBlock:(requestBlock)successBlock failBlock:(requestBlock)failBlock delegate:(UIViewController *)delegate{
-    AFHTTPSessionManager * manager = [self initManager];
-    
-    LoadIngView * loading = [[LoadIngView alloc] initWithFrame:CGRectMake(0, 0, delegate.view.width, delegate.view.height)];
-    if (delegate) {
-        if (delegate.view.height == Height) {
-            loading.y = 64;
-        }
-    }
-    
-    [delegate.view addSubview:loading];
-    [manager GET:url parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        [loading removeFromSuperview];
-        [self success:successBlock dicResponseObject:responseObject delegate:delegate];
-        
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        [loading removeFromSuperview];
-        //        [jizai removeFromSuperview];
-        [self fail:failBlock error:error delegate:delegate];
-    }];
-    
-}
-+(void)sendGetAFRequest:(NSString *)url parameters:(NSDictionary *)parameters successBlock:(requestBlock)successBlock failBlock:(requestBlock)failBlock delegate:(UIViewController *)delegate loadWith:(BOOL)ret{
+/******* get请求  *******/
++(void)sendGetAFRequest:(NSString *)url parameters:(NSDictionary *)parameters successBlock:(requestBlock)successBlock failBlock:(requestBlock)failBlock delegate:(UIViewController *)delegate loadWith:(loadIngtype)tpye{
     AFHTTPSessionManager * manager = [self initManager];
     LoadIngView * loading = [[LoadIngView alloc] initWithFrame:CGRectMake(0, 0, delegate.view.width, delegate.view.height)];
     if (delegate) {
@@ -77,7 +53,7 @@
         }
     }
     
-    if (ret) {
+    if (tpye == mainLoading) {
         [delegate.view addSubview:loading];
     }
     [manager GET:url parameters:parameters progress:^(NSProgress * _Nonnull uploadProgress) {
@@ -88,7 +64,7 @@
         
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         [loading removeFromSuperview];
-        //        [jizai removeFromSuperview];
+        
         [self fail:failBlock error:error delegate:delegate];
     }];
     

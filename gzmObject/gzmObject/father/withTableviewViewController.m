@@ -111,7 +111,7 @@
         
         _GZMTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(creatData)];
         [_GZMTableView.mj_header beginRefreshing];
-        _GZMTableView.backgroundColor = MianColor;
+        _GZMTableView.backgroundColor = [UIColor whiteColor];
         _GZMTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
        
     }
